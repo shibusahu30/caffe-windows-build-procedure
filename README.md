@@ -24,7 +24,7 @@
           (py35) > conda config --add channels willyd
           (py35) > conda install --yes cmake ninja numpy scipy protobuf==3.1.0 six scikit-image pyyaml pydotplus graphviz
           ```
-      * Add path to system environment i.e. path\Anaconda2\envs\py35. This path should be added at the top of all other python paths of your environment.
+      * Add path to system environment i.e. path\Anaconda2\envs\py35. This path should be added at the top of all other python paths of your system environment.
   3. CMake 3.5 or higher
       * Download CMake from [here](https://cmake.org/download/)
       * Add path of binary file to your system environment i.e. path\cmake-3.17.3-win64-x64\bin
