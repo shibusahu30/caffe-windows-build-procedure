@@ -38,3 +38,6 @@
   :: Edit any of the options inside build_win.cmd to suit your needs according to my build_win.cmd file
   > scripts\build_win.cmd
 ```
+
+
+<img src="https://github.com/shibusahu30/caffe-windows-build-procedure/tree/master/images/im1.png" alt="build summary" width="900px">
