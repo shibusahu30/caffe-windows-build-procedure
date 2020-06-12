@@ -9,10 +9,10 @@
           1. All of Programming Languages -> Visual C++
           2. Windows and Web Development -> Universal Windows App Development Tools -> Tools(1.4.1) and Windows 10 SDK (10.0.14393)
           3. Windows and Web Development -> Windows 8.1 and Windows Phone 8.0/8.1 Tools -> Tools and Windows SDKs 
-  2. Anaconda2(64 bit) with Python 3.5
-     (I found in someones article to use Anaconda2 not Anaconda3. U can also give a try with Anaconda3 with following procedure.)
-      * Download Anaconda2(64 bit) from [here](https://www.anaconda.com/products/individual#Downloads)
-      * It's default python version is 2.7, create python3.5 with following command in Anaconda Prompt:
+  2. Anaconda(64 bit) with Python 3.5
+     
+      * Download Anaconda(64 bit) from [here](https://www.anaconda.com/products/individual#Downloads)
+      * It's default python version is 2.7 for Anaconda2 or 3.7 in Anaconda3, create python3.5(bcz, as mentioned in caffe we need either 2.7 or 3.5) with following command in Anaconda Prompt:
           ```cmd
           :: update conda
           (base) > conda update conda
@@ -25,7 +25,7 @@
           (py35) > conda config --add channels willyd
           (py35) > conda install --yes cmake ninja numpy scipy protobuf==3.1.0 six scikit-image pyyaml pydotplus graphviz
           ```
-      * Add path to system environment i.e. path\Anaconda2\envs\py35. This path should be added at the top of all other python paths of your system environment.
+      * Add path to system environment i.e. path\Anaconda3\envs\py35. This path should be added at the top of all other python paths of your system environment.
   3. CMake 3.5 or higher
       * Download CMake from [here](https://cmake.org/download/)
       * Add path of binary file to your system environment i.e. path\cmake-3.17.3-win64-x64\bin
