@@ -33,10 +33,14 @@
   5. Git from [here](https://git-scm.com/downloads)
 ## Configuring and Building Caffe
 ```cmd
+  :: clone the repo
   > git clone https://github.com/BVLC/caffe.git
+  :: change dir
   > cd caffe
+  :: goto windows branch
   > git checkout windows
   :: Edit any of the options inside build_win.cmd to suit your needs according to my build_win.cmd file
+  :: then build
   > scripts\build_win.cmd
 ```
 
