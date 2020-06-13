@@ -45,7 +45,7 @@
 ```
 
 
-<img src="https://github.com/shibusahu30/caffe-windows-build-procedure/tree/master/images/im1.png" alt="buid summary" width="900px">
+<img src="https://github.com/shibusahu30/caffe-windows-build-procedure/tree/master/images/im1.png" alt="buid summary image" width="900px">
 
 
-<img src="https://github.com/shibusahu30/caffe-windows-build-procedure/tree/master/images/im2.png" alt="caffe config" width="900px">
+<img src="https://github.com/shibusahu30/caffe-windows-build-procedure/tree/master/images/im2.png" alt="caffe config image" width="900px">
