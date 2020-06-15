@@ -12,7 +12,8 @@
   2. Anaconda(64 bit) with Python 3.5
      
       * Download Anaconda(64 bit) from [here](https://www.anaconda.com/products/individual#Downloads)
-      * It's default python version is 2.7 for Anaconda2 or 3.7 in Anaconda3, create python3.5(bcz, as mentioned in caffe we need either 2.7 or 3.5) with following command in Anaconda Prompt:
+      * Latest version of Anaconda2 and Anaconda3 have py2.7 and py3.7 as their default python so, create python3.5(bcz, as mentioned in caffe we need either 2.7 or 3.5) with following command in Anaconda Prompt:
+      (Recommend: Install Anaconda3 which comes with python3.5 as their default. Link [here](https://repo.continuum.io/archive/Anaconda3-4.2.0-Windows-x86_64.exe) to download Anaconda3 for win64 with py3.5. Anaconda installation archive [here](https://repo.continuum.io/archive/index.html).)
           ```cmd
           :: update conda
           (base) > conda update conda
@@ -20,7 +21,7 @@
           (base) > conda create --name py35 python=3.5
           :: activate 
           (base) > conda activate py35
-          :: setup required for caffe
+          :: setup required for caffe in conda environment
           (py35) > conda config --add channels conda-forge
           (py35) > conda config --add channels willyd
           (py35) > conda install --yes cmake ninja numpy scipy protobuf==3.1.0 six scikit-image pyyaml pydotplus graphviz
