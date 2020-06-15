@@ -16,15 +16,15 @@
       (Recommend: Install Anaconda3 which comes with python3.5 as their default. Link [here](https://repo.continuum.io/archive/Anaconda3-4.2.0-Windows-x86_64.exe) to download Anaconda3 for win64 with py3.5. Anaconda installation archive [here](https://repo.continuum.io/archive/index.html).)
           ```cmd
           :: update conda
-          (base) > conda update conda
+          (base) $ conda update -n base conda
           :: create environment for python 3.5
-          (base) > conda create --name py35 python=3.5
+          (base) $ conda create --name py35 python=3.5
           :: activate 
-          (base) > conda activate py35
+          (base) $ conda activate py35
           :: setup required for caffe in conda environment
-          (py35) > conda config --add channels conda-forge
-          (py35) > conda config --add channels willyd
-          (py35) > conda install --yes cmake ninja numpy scipy protobuf==3.1.0 six scikit-image pyyaml pydotplus graphviz
+          (py35) $ conda config --add channels conda-forge
+          (py35) $ conda config --add channels willyd
+          (py35) $ conda install --yes cmake ninja numpy scipy protobuf==3.1.0 six scikit-image pyyaml pydotplus graphviz
           ```
       * Add path to system environment i.e. path\Anaconda2\envs\py35. This path should be added at the top of all other python paths of your system environment.
   3. CMake 3.5 or higher
